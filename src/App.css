@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: rgb(15, 13, 13);
+}
+
+h2{
+  color: aliceblue;
+}
+.logofun{
+width: 30%;
+margin: 0% 0% 5% 30%;
+
+}
+button {
+background: rgb(54, 127, 196);
+}
+
+.btn-custom{
+  @apply  inline-block px-6 py-4 rounded-full shadow-sm font-medium transition duration-700 ease-in-out transform hover:scale-105
+}
+.btn-primary{
+  @apply bg-sky-800  text-white hover:bg-sky-500
+}
